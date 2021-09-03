@@ -1,0 +1,134 @@
+.methods {
+	padding: 80px 0 100px;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		background-image: url(../img/methods/budka.png);
+		background-size: contain;
+		width: 452px;
+		height: 332px;
+	}
+	&__title {
+		margin-bottom: 50px;
+	}
+	&__content {
+
+	}
+	&__media {
+		a {
+			display: block;
+		}
+	}
+	&__media {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__img {
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 271px;
+		height: 327px;
+		transition: 0.3s ease;
+		border-radius: 15px;
+		&:hover {
+			background-size: 120%;
+		}
+	}
+	&__video {
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 594px;
+		height: 327px;
+		position: relative;
+		border-radius: 15px;
+		transition: 0.3s ease;
+		&:before {
+			content: '';
+			background-image: url(../img/methods/play.png);
+			background-repeat: no-repeat;
+			width: 98px;
+			height: 98px;
+			background-size: contain;
+			background-position: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform:translate(-50%, -50%);
+		}
+		&:hover {
+			background-size: 120%;
+		}
+	}
+	&__text {
+		margin: 50px 0 84px;
+
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 130%;
+		letter-spacing: 0.01em;
+		color: rgba(0, 0, 0, 0.7);
+		.text-center {
+			margin: 30px 0;
+		}
+	}
+	&__steps {
+	}
+}
+
+.steps {
+	display: flex;
+	justify-content: space-between;
+	&__sheme {
+
+	}
+	&__img {
+		display: block;
+		background-image: url(../img/methods/sheme.png);
+		background-size: contain;
+		width: 797px;
+		height: 437px;
+	}
+	&__list {
+
+	}
+}
+
+.list {
+	padding-top: 24px;
+	&__step {
+		display: flex;
+		align-items: center;
+		color: #000000;
+		span {
+			font-family: 'Evolventa';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 130%;
+			letter-spacing: 0.01em;
+		}
+		p {
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 130%;
+			letter-spacing: 0.01em;
+			max-width: 289px;
+			margin-left: 15px;
+			margin-top: -8px;
+		}
+	}
+	.step-center {
+		margin: 56px 0;
+	}
+	&__button {
+		margin-top: 60px;
+	}
+}

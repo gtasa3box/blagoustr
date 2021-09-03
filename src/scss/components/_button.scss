@@ -1,0 +1,19 @@
+.button {
+	display: inline-block;
+	padding: 10px 43px;
+	border-radius: 10px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 130%;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+	transition: 0.3s ease;
+	&_green {
+		background-color: #B4C100;
+	}
+	&:hover {
+		opacity: 0.8;
+	}
+}
