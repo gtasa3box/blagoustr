@@ -124,9 +124,9 @@
 		background-position: center;
 		width: 35px;
 		height: 35px;
-		transition: 0.3s ease;
+		transition: 1s ease;
 		&:hover {
-			transform: rotateZ(360deg);
+			transform: rotateX(360deg);
 		}
 	}
 }
