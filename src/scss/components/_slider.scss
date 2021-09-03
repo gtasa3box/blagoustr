@@ -1,0 +1,51 @@
+.slider-reviews {
+	&__slide {
+
+	}
+	.reviews__slide {
+	
+	}
+	.slide {
+		width: 287px;
+		height: 256px;
+		background-color: white;
+		margin: 0 auto;
+		border: 0.5px solid rgba(0, 0, 0, 0.7);
+		border-radius: 15px;
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		p {
+			font-family: 'Open Sans', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 130%;
+			letter-spacing: 0.01em;
+			color: rgba(0, 0, 0, 0.7);
+		}
+		&__author {
+			display: flex;
+			align-items: center;
+			a {
+				display: block;
+				width: 56px;
+				height: 56px;
+				background-size: contain;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+			p {
+				font-family: 'Open Sans', sans-serif;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 14px;
+				line-height: 130%;
+				letter-spacing: 0.01em;
+				color: #000000;
+				margin-left: 18px;
+			}
+		}
+	}
+}

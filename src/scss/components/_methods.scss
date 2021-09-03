@@ -10,12 +10,14 @@
 		background-size: contain;
 		width: 452px;
 		height: 332px;
+		z-index: 0;
 	}
 	&__title {
 		margin-bottom: 50px;
 	}
 	&__content {
-
+		position: relative;
+		z-index: 1;
 	}
 	&__media {
 		a {
@@ -106,7 +108,7 @@
 		align-items: center;
 		color: #000000;
 		span {
-			font-family: 'Evolventa';
+			font-family: 'Evolventa', sans-serif;
 			font-style: normal;
 			font-weight: 700;
 			font-size: 48px;
@@ -114,7 +116,7 @@
 			letter-spacing: 0.01em;
 		}
 		p {
-			font-family: Open Sans;
+			font-family: 'Open Sans', sans-serif;
 			font-style: normal;
 			font-weight: 600;
 			font-size: 18px;
