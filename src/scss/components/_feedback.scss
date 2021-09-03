@@ -1,0 +1,27 @@
+.feedback {
+	padding: 120px 0 195px;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background-image: url(../img/feedback/1.png);
+		background-size: contain;
+		width: 399px;
+		height: 476px;
+		z-index: 0;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		background-image: url(../img/feedback/2.png);
+		background-size: contain;
+		width: 645px;
+		height: 399px;
+		z-index: 0;
+	}
+}

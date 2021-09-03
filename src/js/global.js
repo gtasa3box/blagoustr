@@ -1,8 +1,8 @@
 console.log('global');
 
  $('.slider-reviews').slick({
-  dots: true,
-  infinite: false,
+  dots: false,
+  infinite: true,
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 1,

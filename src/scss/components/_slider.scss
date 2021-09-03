@@ -48,4 +48,30 @@
 			}
 		}
 	}
+	.slick-prev, .slick-next {
+		top: 45%;
+	}
+	.slick-next {
+		right: -35px;
+	}
+	.slick-prev {
+		left: -35px;
+	}
+	.slick-prev:before {
+		background-image: url(../img/reviews/arrow.png);
+		background-size: 14px 28px;
+		display: inline-block;
+		width: 14px; 
+		height: 28px;
+		content:"";
+		transform: rotate(-180deg);
+	}
+	.slick-next:before {
+		background-image: url(../img/reviews/arrow.png);
+		background-size: 14px 28px;;
+		display: inline-block;
+		width: 14px; 
+		height: 28px;
+		content:"";
+	}
 }
