@@ -1,0 +1,164 @@
+.footer {
+	&__content {
+		padding: 90px 0 85px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__logo {
+		display: flex;
+		align-items: center;
+		a {
+			display: block;
+			background-image: url(../img/logo.svg);
+			background-size: 100%;
+			background-position: center;
+			width: 250px;
+			height: 91.12px;
+		}
+	}
+	&__nav {
+		display: flex;
+		flex-direction: column;
+		a {
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 22px;
+			text-transform: uppercase;
+			color: #000000;
+			transition: 0.3s ease;
+			padding: 7.5px;
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+	&__smalltitle {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 130%;
+		letter-spacing: 0.01em;
+		text-transform: uppercase;
+		color: #000000;
+	}
+	&__contacts {
+
+	}
+	&__mail {
+		display: flex;
+		align-items: center;
+		margin: 20px 0;
+		.mail-icon {
+			display: block;
+			background-image: url(../img/mail.svg);
+			background-size: 100%;
+			background-position: center;
+			width: 26px;
+			height: 26px;
+			cursor: default;
+		}
+		a:last-child {
+			margin-left: 10px;
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 22px;
+			text-decoration-line: underline;
+			color: #000000;
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+	&__schedule {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #000000;
+		span {
+			font-weight: bold;
+		}
+	}
+	&__soc {
+	}
+	&__button {
+		padding: 10px 26px;
+	}
+	&__cop {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 22px;
+		text-align: center;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: #000000;
+		padding: 30px 0 25px;
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top:0;
+			width: 100%;
+			border: 1px solid #000000;
+			height: 1px;
+		}
+	}
+}
+
+.soc {
+	display: flex;
+	margin: 18px 0 47px;
+	justify-content: space-between;
+	&__icon {
+		display: block;
+		background-size: 100%;
+		background-position: center;
+		width: 35px;
+		height: 35px;
+		transition: 0.3s ease;
+		&:hover {
+			transform: rotateZ(360deg);
+		}
+	}
+}
+
+.numbers {
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+	&__icon {
+		display: block;
+		background-image: url(../img/phone.svg);
+		background-size: 100%;
+		background-position: center;
+		width: 21px;
+		height: 21px;
+		cursor: default;
+	}
+	&__tel {
+		display: flex;
+		flex-direction: column;
+		margin-left: 15px;
+		a {
+			padding: 1.5px 0;
+			font-family: Open Sans;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 22px;
+			color: #000000;
+			&:last-child {
+				font-weight: normal;
+			}
+		}
+	}
+}
